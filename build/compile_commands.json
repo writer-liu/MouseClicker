@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/MouseClicker/build",
+  "command": "D:\\myDate\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MouseClicker.dir\\src\\hello.cpp.obj -c E:\\MouseClicker\\src\\hello.cpp",
+  "file": "E:/MouseClicker/src/hello.cpp",
+  "output": "CMakeFiles/MouseClicker.dir/src/hello.cpp.obj"
+},
+{
+  "directory": "E:/MouseClicker/build",
+  "command": "D:\\myDate\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MouseClicker.dir\\src\\main.cpp.obj -c E:\\MouseClicker\\src\\main.cpp",
+  "file": "E:/MouseClicker/src/main.cpp",
+  "output": "CMakeFiles/MouseClicker.dir/src/main.cpp.obj"
+}
+]
