@@ -1,4 +1,4 @@
-# MouseClicker 鼠标连点器
+# MouseClicker 鼠标连点器  **未完工！！！**
 
 **[English](doc/README-english.md)**
 
