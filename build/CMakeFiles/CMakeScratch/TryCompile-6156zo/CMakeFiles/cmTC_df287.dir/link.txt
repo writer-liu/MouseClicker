@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_df287.dir/objects.a
+D:\myDate\mingw64\bin\ar.exe qc CMakeFiles\cmTC_df287.dir/objects.a @CMakeFiles\cmTC_df287.dir\objects1.rsp
+D:\myDate\mingw64\bin\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\cmTC_df287.dir/objects.a -Wl,--no-whole-archive -o cmTC_df287.exe -Wl,--out-implib,libcmTC_df287.dll.a -Wl,--major-image-version,0,--minor-image-version,0

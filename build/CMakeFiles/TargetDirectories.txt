@@ -1,3 +1,0 @@
-E:/MouseClicker/build/CMakeFiles/MouseClicker.dir
-E:/MouseClicker/build/CMakeFiles/edit_cache.dir
-E:/MouseClicker/build/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\MouseClicker.dir/objects.a
-D:\myDate\mingw64\bin\ar.exe qc CMakeFiles\MouseClicker.dir/objects.a @CMakeFiles\MouseClicker.dir\objects1.rsp
-D:\myDate\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MouseClicker.dir/objects.a -Wl,--no-whole-archive -o MouseClicker.exe -Wl,--out-implib,libMouseClicker.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MouseClicker.dir\linkLibs.rsp

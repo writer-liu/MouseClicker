@@ -1,13 +1,19 @@
 [
 {
   "directory": "E:/MouseClicker/build",
-  "command": "D:\\myDate\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MouseClicker.dir\\src\\hello.cpp.obj -c E:\\MouseClicker\\src\\hello.cpp",
-  "file": "E:/MouseClicker/src/hello.cpp",
-  "output": "CMakeFiles/MouseClicker.dir/src/hello.cpp.obj"
+  "command": "e:\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MouseClicker.dir\\src\\AskKey.cpp.obj -c E:\\MouseClicker\\src\\AskKey.cpp",
+  "file": "E:/MouseClicker/src/AskKey.cpp",
+  "output": "CMakeFiles/MouseClicker.dir/src/AskKey.cpp.obj"
 },
 {
   "directory": "E:/MouseClicker/build",
-  "command": "D:\\myDate\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MouseClicker.dir\\src\\main.cpp.obj -c E:\\MouseClicker\\src\\main.cpp",
+  "command": "e:\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MouseClicker.dir\\src\\Click.cpp.obj -c E:\\MouseClicker\\src\\Click.cpp",
+  "file": "E:/MouseClicker/src/Click.cpp",
+  "output": "CMakeFiles/MouseClicker.dir/src/Click.cpp.obj"
+},
+{
+  "directory": "E:/MouseClicker/build",
+  "command": "e:\\mingw64\\bin\\g++.exe  @CMakeFiles/MouseClicker.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\MouseClicker.dir\\src\\main.cpp.obj -c E:\\MouseClicker\\src\\main.cpp",
   "file": "E:/MouseClicker/src/main.cpp",
   "output": "CMakeFiles/MouseClicker.dir/src/main.cpp.obj"
 }

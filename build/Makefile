@@ -128,29 +128,53 @@ MouseClicker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/build
 .PHONY : MouseClicker/fast
 
-src/hello.obj: src/hello.cpp.obj
-.PHONY : src/hello.obj
+src/AskKey.obj: src/AskKey.cpp.obj
+.PHONY : src/AskKey.obj
 
 # target to build an object file
-src/hello.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/hello.cpp.obj
-.PHONY : src/hello.cpp.obj
+src/AskKey.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/AskKey.cpp.obj
+.PHONY : src/AskKey.cpp.obj
 
-src/hello.i: src/hello.cpp.i
-.PHONY : src/hello.i
+src/AskKey.i: src/AskKey.cpp.i
+.PHONY : src/AskKey.i
 
 # target to preprocess a source file
-src/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/hello.cpp.i
-.PHONY : src/hello.cpp.i
+src/AskKey.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/AskKey.cpp.i
+.PHONY : src/AskKey.cpp.i
 
-src/hello.s: src/hello.cpp.s
-.PHONY : src/hello.s
+src/AskKey.s: src/AskKey.cpp.s
+.PHONY : src/AskKey.s
 
 # target to generate assembly for a file
-src/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/hello.cpp.s
-.PHONY : src/hello.cpp.s
+src/AskKey.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/AskKey.cpp.s
+.PHONY : src/AskKey.cpp.s
+
+src/Click.obj: src/Click.cpp.obj
+.PHONY : src/Click.obj
+
+# target to build an object file
+src/Click.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/Click.cpp.obj
+.PHONY : src/Click.cpp.obj
+
+src/Click.i: src/Click.cpp.i
+.PHONY : src/Click.i
+
+# target to preprocess a source file
+src/Click.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/Click.cpp.i
+.PHONY : src/Click.cpp.i
+
+src/Click.s: src/Click.cpp.s
+.PHONY : src/Click.s
+
+# target to generate assembly for a file
+src/Click.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/src/Click.cpp.s
+.PHONY : src/Click.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -185,9 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MouseClicker
-	@echo ... src/hello.obj
-	@echo ... src/hello.i
-	@echo ... src/hello.s
+	@echo ... src/AskKey.obj
+	@echo ... src/AskKey.i
+	@echo ... src/AskKey.s
+	@echo ... src/Click.obj
+	@echo ... src/Click.i
+	@echo ... src/Click.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -1,0 +1,3 @@
+E:/MouseClicker/build/CMakeFiles/CMakeScratch/TryCompile-6156zo/CMakeFiles/cmTC_df287.dir
+E:/MouseClicker/build/CMakeFiles/CMakeScratch/TryCompile-6156zo/CMakeFiles/edit_cache.dir
+E:/MouseClicker/build/CMakeFiles/CMakeScratch/TryCompile-6156zo/CMakeFiles/rebuild_cache.dir

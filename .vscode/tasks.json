@@ -6,22 +6,30 @@
             "type": "shell",
             "command": "cmake -S . -B build",
             "group": "build",
-            "problemMatcher": ["$gcc"]
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "CMake Build",
             "type": "shell",
             "command": "cmake --build build",
             "group": "build",
-            "dependsOn": ["CMake Configure"],
-            "problemMatcher": ["$gcc"]
+            "dependsOn": [
+                "CMake Configure"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "Run MouseClicker",
             "type": "shell",
             "command": ".\\build\\MouseClicker.exe",
             "group": "test",
-            "dependsOn": ["CMake Build"]
+            "dependsOn": [
+                "CMake Build"
+            ]
         }
     ]
 }
