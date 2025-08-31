@@ -28,9 +28,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -56,20 +53,20 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\MouseClicker\build\CMakeFiles\CMakeScratch\TryCompile-6156zo
+CMAKE_SOURCE_DIR = E:\MouseClicker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\MouseClicker\build\CMakeFiles\CMakeScratch\TryCompile-6156zo
+CMAKE_BINARY_DIR = E:\MouseClicker\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cmTC_df287.dir/all
+all: CMakeFiles/MouseClicker.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/cmTC_df287.dir/codegen
+codegen: CMakeFiles/MouseClicker.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -77,41 +74,48 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cmTC_df287.dir/clean
+clean: CMakeFiles/MouseClicker.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cmTC_df287.dir
+# Target rules for target CMakeFiles/MouseClicker.dir
 
 # All Build rule for target.
-CMakeFiles/cmTC_df287.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_df287.dir\build.make CMakeFiles/cmTC_df287.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_df287.dir\build.make CMakeFiles/cmTC_df287.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\MouseClicker\build\CMakeFiles\CMakeScratch\TryCompile-6156zo\CMakeFiles --progress-num=1,2 "Built target cmTC_df287"
-.PHONY : CMakeFiles/cmTC_df287.dir/all
+CMakeFiles/MouseClicker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\MouseClicker\build\CMakeFiles --progress-num=1,2,3,4 "Built target MouseClicker"
+.PHONY : CMakeFiles/MouseClicker.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cmTC_df287.dir/rule:
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\MouseClicker\build\CMakeFiles\CMakeScratch\TryCompile-6156zo\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cmTC_df287.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\MouseClicker\build\CMakeFiles\CMakeScratch\TryCompile-6156zo\CMakeFiles 0
-.PHONY : CMakeFiles/cmTC_df287.dir/rule
+CMakeFiles/MouseClicker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MouseClicker\build\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MouseClicker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MouseClicker\build\CMakeFiles 0
+.PHONY : CMakeFiles/MouseClicker.dir/rule
 
 # Convenience name for target.
-cmTC_df287: CMakeFiles/cmTC_df287.dir/rule
-.PHONY : cmTC_df287
+MouseClicker: CMakeFiles/MouseClicker.dir/rule
+.PHONY : MouseClicker
 
 # codegen rule for target.
-CMakeFiles/cmTC_df287.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_df287.dir\build.make CMakeFiles/cmTC_df287.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\MouseClicker\build\CMakeFiles\CMakeScratch\TryCompile-6156zo\CMakeFiles --progress-num=1,2 "Finished codegen for target cmTC_df287"
-.PHONY : CMakeFiles/cmTC_df287.dir/codegen
+CMakeFiles/MouseClicker.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\MouseClicker\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target MouseClicker"
+.PHONY : CMakeFiles/MouseClicker.dir/codegen
 
 # clean rule for target.
-CMakeFiles/cmTC_df287.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_df287.dir\build.make CMakeFiles/cmTC_df287.dir/clean
-.PHONY : CMakeFiles/cmTC_df287.dir/clean
+CMakeFiles/MouseClicker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MouseClicker.dir\build.make CMakeFiles/MouseClicker.dir/clean
+.PHONY : CMakeFiles/MouseClicker.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
+
+# Special rule to run CMake to check the build system integrity.
+# No rule that depends on this can have commands that come from listfiles
+# because they might be regenerated.
+cmake_check_build_system:
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+.PHONY : cmake_check_build_system
 

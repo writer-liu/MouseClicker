@@ -6,10 +6,10 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10"
+						"string" : "3.106"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MouseClicker::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MouseClicker-Debug-5f4a42ba23b06451b030.json",
+					"jsonFile" : "target-MouseClicker-aee6594bb58e180d044f.json",
 					"name" : "MouseClicker",
 					"projectIndex" : 0
 				}

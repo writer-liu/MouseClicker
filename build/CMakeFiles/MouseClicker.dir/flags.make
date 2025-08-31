@@ -4,7 +4,7 @@
 # compile CXX with D:/myDate/mingw64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/MouseClicker.dir/includes_CXX.rsp
 
-CXX_FLAGS =   -v
+CXX_FLAGS = -std=gnu++14
 

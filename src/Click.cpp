@@ -1,20 +1,20 @@
 #include "Click.h"
 #include <iostream>
-#include <SDL3/SDL.h>
+#include <SDL2/SDL.h>
 
 using namespace std;
 
 SDL_Keycode listen_click_key(){
-    // 初始化 SDL
+    // 初�?�化 SDL
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
         cerr << "SDL_Init Error: " << SDL_GetError() << endl;
         return 1;
     }
 
-    // 创建一个隐藏的窗口用于捕获键盘事件
+    // 创建一�?隐藏的窗口用于捕获键盘事�?
     SDL_Window* window = SDL_CreateWindow("KeyListen", 0, 0, SDL_WINDOW_HIDDEN);
 
-    // 检查窗口是否创建成功
+    // 检查窗口是否创建成�?
     if (!window) {
         cerr << "SDL_CreateWindow Error: " << SDL_GetError() << endl;
         SDL_Quit();
@@ -40,7 +40,7 @@ SDL_Keycode listen_click_key(){
                 cout << "Key up: " << SDL_GetKeyName(key) << endl;
             }
         }
-        SDL_Delay(10); // 防止CPU占用过高
+        SDL_Delay(10); // 防�??CPU占用过高
     }
 
     SDL_DestroyWindow(window);

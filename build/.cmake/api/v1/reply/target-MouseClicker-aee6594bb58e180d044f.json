@@ -65,7 +65,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14"
+					"fragment" : "-std=gnu++14"
 				}
 			],
 			"includes" : 
@@ -76,7 +76,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "E:/MouseClicker/external/SDL3/x86_64-w64-mingw32/include"
+					"path" : "E:/MouseClicker/external/SDL2/x86_64-w64-mingw32/include"
 				}
 			],
 			"language" : "CXX",
@@ -102,17 +102,13 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"backtrace" : 2,
-				"fragment" : "-LE:\\MouseClicker\\external\\SDL3\\x86_64-w64-mingw32\\lib",
+				"fragment" : "-LE:\\MouseClicker\\external\\SDL2\\x86_64-w64-mingw32\\lib",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-lSDL3",
+				"fragment" : "-lSDL2",
 				"role" : "libraries"
 			},
 			{

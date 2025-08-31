@@ -10,19 +10,19 @@
 				{
 					"includeDirectories" : 
 					[
-						"E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++",
-						"E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32",
-						"E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward",
-						"E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include",
-						"E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
-						"E:/mingw64/x86_64-w64-mingw32/include"
+						"D:/myDate/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++",
+						"D:/myDate/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32",
+						"D:/myDate/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward",
+						"D:/myDate/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include",
+						"D:/myDate/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
+						"D:/myDate/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0",
-						"E:/mingw64/lib/gcc",
-						"E:/mingw64/x86_64-w64-mingw32/lib",
-						"E:/mingw64/lib"
+						"D:/myDate/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0",
+						"D:/myDate/mingw64/lib/gcc",
+						"D:/myDate/mingw64/x86_64-w64-mingw32/lib",
+						"D:/myDate/mingw64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -45,7 +45,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "e:/mingw64/bin/g++.exe",
+				"path" : "D:/myDate/mingw64/bin/g++.exe",
 				"version" : "14.2.0"
 			},
 			"language" : "CXX",
@@ -72,7 +72,7 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "E:/mingw64/bin/windres.exe"
+				"path" : "D:/myDate/mingw64/bin/windres.exe"
 			},
 			"language" : "RC",
 			"sourceFileExtensions" : 

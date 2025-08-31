@@ -1,2 +1,2 @@
-# Empty dependencies file for cmTC_df287.
+# Empty dependencies file for MouseClicker.
 # This may be replaced when dependencies are built.
